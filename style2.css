@@ -1,0 +1,178 @@
+@media screen and (max-width: 1000px) { 
+
+    .haut{
+        font-size: 18px;
+        
+    }
+
+    img{
+
+        max-width: 100%;
+        height: 70%;
+       
+    }
+
+    .image{
+        width: 50%;
+        height: auto;
+        font-size: small;
+       
+    }
+
+    .header-right{
+
+        font-size: 7px;
+        width: 100%;
+    }
+    
+    footer{
+
+        font-size: 10px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    p{
+        font-size: 20px;
+    }
+        
+    .header{
+
+        font-size: 10px;
+
+    }
+
+    .mid{
+
+        font-size: small;
+    }
+    
+}
+
+
+
+
+
+.top{
+
+    display:flex;
+    background-color: black;
+    align-items: center;
+
+}
+
+.header{
+    
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+    text-decoration: underline;
+    width: 150%;
+}
+
+
+
+.header-right{
+
+    text-align: center;
+    color: black;  
+    text-size-adjust: 50%;
+    width: 20%;
+    background-color: rgba(172, 255, 47, 0.216);
+    border-radius: 10px;
+    margin-right: 1%;
+    padding: 2px;
+   
+    
+}
+
+.header-right:hover{
+
+    background-color: rgb(172, 255, 47);
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+
+.image{
+
+    justify-content: start;
+    opacity:50%;
+    padding:1%;
+    
+}
+
+.image:hover{
+
+    opacity:100%;
+
+}
+
+
+.haut{
+
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.cartes{
+
+    display:flex;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.cartes:hover{
+
+    zoom: 125%;
+ }
+
+.carte1{
+
+    text-align: center;
+   
+}
+
+.carte2{
+
+    width: 180%;
+    text-align: center;
+
+} 
+
+.carte3{
+
+    text-align: center;
+
+}
+
+.cartes2{
+    
+    display:flex;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.cartes2:hover{
+
+   zoom: 125%;
+}
+
+footer{
+
+    margin-top:  10%;
+    padding: 0%;
+    text-align: center;
+    color: rgb(172, 255, 47);
+}

@@ -1,0 +1,323 @@
+@media screen and (max-width: 1000px) { 
+
+    .haut{
+        font-size: 18px;
+        
+    }
+
+   
+
+    img{
+        max-width: 100%;
+        height: auto;
+       
+    }
+
+    .header{
+
+        font-size: 10px;
+
+    }
+
+    .image{
+        width: 40%;
+        height: auto;
+        
+    }
+
+    section{
+
+        font-size: 10px;
+        text-align: center;
+
+    }
+
+   
+    .header-right{
+        font-size: 7px;
+        width: 100%;
+    }
+    
+    footer{
+        font-size: 10px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .truc{
+        font-size: 10px;
+    }
+        
+    
+}
+
+body.dark-mode {
+    background-color: #3d3c3c;
+
+    h2{
+
+        padding-top: 10%;
+        margin: 10%;
+        font-size: 200%;
+        color: rgb(255, 255, 255);
+    
+    }
+
+    .Texte{
+        width: 100%;
+        text-align: center;
+        font-size: x-large;
+        margin-top: 5%;
+        color: rgb(255, 255, 255);
+    }
+
+    .haut{
+
+    
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        width: 100%;
+    }
+    
+    .tabs {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+     
+      .tab {
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 2s;
+      }
+      
+      .tab-active {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+      }
+    
+      .tab-active:hover{
+        background-color: rgb(172, 255, 47);
+        transition: background-color 1.5s;
+    
+      }
+      
+      .content {
+        display: none;
+        font-size: xx-small;
+      }
+      
+      .content.active {
+        display: block;
+      }
+
+      p{
+
+        color: #ffffff;
+      }
+      
+       
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #acff2f;;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+button:hover {
+    background-color: #ffffff;
+}
+
+
+.top{
+
+    display:flex;
+    background-color: black;
+    align-items: center;
+    padding-top: 5px ;
+    
+
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+
+
+.haut{
+
+    
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    
+   
+}
+
+.header{
+
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+    text-decoration: underline;
+    width: 150%;
+}
+
+
+
+.header-right{
+
+    text-align: center;
+    color: black;  
+    text-size-adjust: 50%;
+    width: 20%;
+    background-color: rgba(172, 255, 47, 0.216);
+    border-radius: 10px;
+    margin-right: 1%;
+    padding: 2px;
+   
+    
+}
+
+.header-right:hover{
+
+    background-color: #acff2f;
+}
+
+.image{
+
+    justify-content: start;
+    opacity:50%;
+    padding:1%;
+    
+}
+
+.image:hover{
+
+    opacity:100%;
+
+}
+
+.truc{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;  
+    
+}
+
+
+
+
+.aurelion{
+
+    text-align: center; 
+    
+}
+
+
+
+
+.Yasuo{
+
+    text-align: center;
+       
+}
+
+
+p{
+
+    text-decoration: underline;
+    font-size: 250%;
+
+}
+
+
+
+h2{
+
+    padding-top: 10%;
+    margin: 10%;
+    font-size: 200%;
+
+}
+
+
+section{
+
+    background-color: #acff2f;
+    
+}
+
+footer{
+
+    margin-top:  10%;
+    padding: 0%;
+    text-align: center;
+    color: rgb(172, 255, 47);
+}
+
+.Texte{
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+}
+
+.tabs {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 2s;
+  }
+  
+  .tab-active {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+
+  .tab-active:hover{
+    background-color: rgb(172, 255, 47);
+    transition: background-color 1.5s;
+
+  }
+  
+  .content {
+    display: none;
+    font-size: xx-small;
+  }
+  
+  .content.active {
+    display: block;
+  }
+
+  p{
+
+    color: #000000;
+  }
+  
